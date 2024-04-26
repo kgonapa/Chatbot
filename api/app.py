@@ -30,7 +30,7 @@ model=ChatOpenAI()
 llm=Ollama(model="llama2")
 
 prompt1=ChatPromptTemplate.from_template("Write me an essay about {topic} with 30 words")
-prompt2=ChatPromptTemplate.from_template("Write me an essay about {topic} with 100 words")
+prompt2=ChatPromptTemplate.from_template("Write me an poem about {topic} with 100 words")
 
 add_routes(
     app,
@@ -41,7 +41,7 @@ add_routes(
 
 add_routes(
     app,
-    prompt1|model,
+    prompt2|model,
     path="/poem"
 )
 
