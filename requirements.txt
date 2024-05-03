@@ -11,4 +11,12 @@ bs4
 pypdf
 chromadb
 faiss-cpu
--e .
+wikipedia
+arxiv
+langchainhub
+groq
+langchain-groq
+beautifulsoup4
+sentence-transformers
+
+#-e .
