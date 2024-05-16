@@ -18,5 +18,6 @@ groq
 langchain-groq
 beautifulsoup4
 sentence-transformers
+langchain-objectbox
 
 #-e .
