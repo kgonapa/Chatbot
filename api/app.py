@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 os.environ["OPENAI_APO_KEY"]=os.getenv("OPENAI_API_KEY")
 app=FastAPI(
     title="Langchain series",
